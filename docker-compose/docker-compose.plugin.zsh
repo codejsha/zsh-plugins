@@ -1,5 +1,4 @@
-# SPDX-License-Identifier: APACHE-2.0
-# SPDX-FileCopyrightText: Copyright 2024 Jinseong Ha
+#!/usr/bin/env zsh
 
 alias dcp="docker compose"
 alias dcpat="docker compose attach"
