@@ -6,3 +6,4 @@
 - [argocd](/argocd/): aliases for argocd commands
 - [docker](/docker/): aliases/functions for docker commands
 - [docker-compose](/docker-compose/): aliases/functions for docker-compose commands
+- [kubernetes](/kubernetes/): aliases for kubernetes commands
