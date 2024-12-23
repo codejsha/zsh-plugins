@@ -18,7 +18,7 @@ function als() {
           if [[ "${prev_group}" != "${curr_group}" ]]; then
             echo -e "\n\e[32m[${base}]\e[0m"
           fi
-          width=$(( ${#alias} < 10 ? 10 : 20 ))
+          width=$(( ${#alias} < 10 ? 10 : 15 ))
           printf "  \e[33m%-${width}s\e[0m%s\n" "${alias}" "${actual}"
           prev_group="${base}"
         fi
@@ -28,7 +28,7 @@ function als() {
           echo -e "\n\e[32m[${base}]\e[0m"
           prev_group="${base}"
         fi
-        width=$(( ${#alias} < 10 ? 10 : 20 ))
+        width=$(( ${#alias} < 10 ? 10 : 15 ))
         printf "  \e[33m%-${width}s\e[0m%s\n" "${alias}" "${actual}"
       fi
     done
