@@ -35,4 +35,6 @@ zsdoc/data
 !/tests/_output/.gitkeep
 
 ### Others
+.vscode/
 .idea/
+temp.plugin.zsh
