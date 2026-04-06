@@ -6,5 +6,6 @@
 - argocd: aliases for argocd commands
 - docker: aliases for docker commands
 - docker-compose: aliases for docker-compose commands
+- git: aliases for git commands
 - kubernetes: aliases for kubernetes commands
 - kustomize: aliases for kustomize commands
